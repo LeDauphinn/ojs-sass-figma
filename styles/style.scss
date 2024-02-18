@@ -94,7 +94,7 @@ body {
       padding: 0 40px;
 
       .nail {
-         @media (max-width: $mobile-size){
+         @media (max-width: $mobile-size) {
             display: flex;
             justify-content: center;
          }
@@ -115,7 +115,7 @@ body {
          @media (max-width: $mobile-size) {
             text-align: center;
          }
-         
+
          .tag {
             font-size: 20px;
             font-style: normal;
@@ -157,7 +157,7 @@ body {
                height: 50px;
                background-image: url("../images/star.png");
 
-               @media (max-width: $mobile-size){
+               @media (max-width: $mobile-size) {
                   display: none;
                }
 
@@ -194,16 +194,17 @@ body {
                line-height: normal;
 
             }
-            
+
             @media (max-width: $mobile-size) {
                flex-direction: column;
+
                .btn {
                   width: 100%;
                }
 
                .dropdown {
                   width: 100%;
-                  
+
                }
 
                padding-bottom: 30px;
@@ -229,7 +230,7 @@ body {
                background-image: url("../images/ellipse.png");
                background-repeat: no-repeat;
 
-               @media (max-width: $mobile-size){
+               @media (max-width: $mobile-size) {
                   display: none;
                }
 
@@ -249,7 +250,7 @@ body {
 
    @media (max-width: $mobile-size) {
       padding: 35px 0 15px 0;
-      
+
    }
 
    .table-col {
@@ -297,7 +298,7 @@ body {
             letter-spacing: -0.15px;
 
             .chart-name {
-               @media (max-width: $mobile-size){
+               @media (max-width: $mobile-size) {
                   display: none;
                }
             }
@@ -310,7 +311,7 @@ body {
                border-bottom: 0px solid #eee;
             }
 
-            .col{
+            .col {
                display: flex;
                height: 65px;
                align-items: center;
@@ -356,7 +357,7 @@ body {
                   width: auto;
                }
 
-               @media (max-width: $mobile-size){
+               @media (max-width: $mobile-size) {
                   display: none;
                }
             }
@@ -372,8 +373,29 @@ body {
       @media (max-width: $mobile-size) {
          border-right: 0px solid #eee;
          border-left: 0px solid #eee;
-         
+
       }
    }
 
+}
+
+
+.intro-content {
+   margin-top: 196px;
+   
+   .title-2 {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 52px;
+      margin-bottom: 25px;
+      padding-right: 160px;
+   }
+
+   .feature-2 {
+      color: #666;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      padding-right: 80px;
+   }
 }

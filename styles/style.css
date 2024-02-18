@@ -327,4 +327,22 @@ body {
     border-right: 0px solid #eee;
     border-left: 0px solid #eee;
   }
+}
+
+.intro-content {
+  margin-top: 196px;
+}
+.intro-content .title-2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 25px;
+  padding-right: 160px;
+}
+.intro-content .feature-2 {
+  color: #666;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-right: 80px;
 }/*# sourceMappingURL=style.css.map */
