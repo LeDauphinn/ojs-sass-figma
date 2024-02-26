@@ -380,22 +380,101 @@ body {
 }
 
 
-.intro-content {
-   margin-top: 196px;
-   
-   .title-2 {
-      font-size: 36px;
-      font-weight: 600;
-      line-height: 52px;
-      margin-bottom: 25px;
-      padding-right: 160px;
+.buy-container {
+   padding: 196px 128px 211px;
+
+   @media (max-width: $mobile-size){
+      padding-left: 0;
+      padding-right: 0;
    }
 
-   .feature-2 {
-      color: #666;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 30px;
-      padding-right: 80px;
+   .buy-content {
+
+      .title {
+         color: #222;
+         font-size: 36px;
+         font-weight: 600;
+         line-height: 52px;
+         margin-bottom: 25px;
+      }
+
+      .subtitle {
+         color: #666;
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 30px;
+      }
+
+      .form {
+         margin-top: 45px;
+         
+         .line {
+            display: flex;
+            gap: 22px;
+            margin-bottom: 25px;
+
+            .price-input {
+               position: relative;
+
+               input {
+                  text-align: right;
+                  width: 336px;
+                  height: 80px;
+                  border-radius: 22px;
+                  border-color: #3984f4;
+                  padding-right: 25px;
+                  font-size: 18px;
+                  font-weight: 500;
+               }
+
+               label {
+                  position: absolute;
+                  top: 20px;
+                  left: 25px;
+                  font-size: 14px;
+                  font-style: normal;
+                  font-weight: 500;
+                  line-height: 40px;
+                  color: #3984f4;
+                  border-right: 1px solid #3984f4;
+                  padding-right: 27px;
+                  height: 40px;
+                  width: 84.63px;
+               }
+            }
+
+            .select-input {
+               select {
+                  border-radius: 22px;
+                  border-color: #3984f4;
+                  height: 80px;
+                  padding-left: 46px;
+                  padding-right: 46px;
+                  width: 200px;
+               }
+            }
+         }
+
+         .btn {
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            width: 557px;
+            padding: 20px;
+            text-align: center;
+            margin-top: 5px;
+            border-radius: 40px;
+         }
+
+      }
    }
+
+   .buy-image {
+      @media (max-width: $mobile-size){
+         width: 80%;
+         height: auto;
+         margin: 0 auto;
+      }
+   }
+
 }

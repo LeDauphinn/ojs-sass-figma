@@ -64,7 +64,7 @@
                      <div class="title">
                         <span>The World's</span>
                         <br>
-                        <span class="colorful">Zenginn Naill</span>
+                        <span class="colorful">Fastest Growing</span>
                         <br>
                         <span>
                            Crypto Web App
@@ -298,23 +298,52 @@
       </div>
    </div>
 
-   <section class="my-container">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-6 d-flex align-items-center">
-               <div class="intro-content">
-                  <div class="title-2">
-                     Buy & trade on the original crypto exchange.
-                  </div>
-                  <div class="feature-2">
-                     Buy now and get 40% extra bonus Minimum pre-sale amount 25 Crypto Coin. We accept BTC crypto-currency
-                  </div>
+   <div class="my-container buy-container">
+      <div class="row">
+         <div class="col-md-6 d-flex align-items-center">
+            <div class="buy-content">
+               <div class="title">
+                  Buy & trade on the <br>original crypto exchange.
                </div>
+               <div class="subtitle">
+                  Buy now and get 40% extra bonus Minimum pre-sale amount <br> 25 Crypto Coin. We accept BTC
+                  crypto-currency
+               </div>
+               <form class="form">
+                  <div class="line">
+                     <div class="price-input">
+                        <label for="amount" class="form-label">Amount</label>
+                        <input type="number" class="form-control" id="amount" value="5000">
+                     </div>
+                     <div class="select-input">
+                        <select id="flags" class="form-select" aria-label="Default select example">
+                           <option data-img_src="images/bitcoin.png" value="USD">USD</option>
+                           <option value="TRY">TRY</option>
+                           <option value="EUR">EUR</option>
+                        </select>
+                     </div>
+                  </div>
+                  <div class="line">
+                     <div class="price-input">
+                        <label for="get" class="form-label">Get</label>
+                        <input type="number" class="form-control" id="get" value="0.10901">
+                     </div>
+                     <div class="select-input">
+                        <select id="flags" class="form-select" aria-label="Default select example">
+                           <option data-img_src="images/bitcoin.png" value="USD">BTC</option>
+                           <option value="TRY">Ehereum</option>
+                        </select>
+                     </div>
+                  </div>
+                  <button type="button" class="btn btn-primary">Primary</button>
+               </form>
             </div>
-            <div class="col-md-6">2</div>
+         </div>
+         <div class="col-md-6">
+            <img src="images/buy.png" class="buy-image img-fluid" alt="">
          </div>
       </div>
-   </section>
+   </div>
 
    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
